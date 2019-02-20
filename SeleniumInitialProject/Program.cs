@@ -15,6 +15,9 @@ namespace SeleniumInitialProject
             IWebDriver driver = new ChromeDriver(@"C:\paul\seleniumLibraries");
             string googleUrl = @"https://www.google.com/";
             driver.Url = googleUrl;
+
+            // This is a test
+            var num = 10;
         }
     }
 }
